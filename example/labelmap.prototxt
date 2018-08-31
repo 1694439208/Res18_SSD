@@ -1,0 +1,35 @@
+item {
+name: "none_of_the_above"
+label: 0
+display_name: "background"
+}
+item {
+name: "person"
+label: 1
+display_name: "person"
+}
+item {
+name: "bicycle"
+label: 2
+display_name: "bicycle"
+}
+item {
+name: "car"
+label: 3
+display_name: "car"
+}
+item {
+name: "motorcycle"
+label: 4
+display_name: "motorcycle"
+}
+item {
+name: "bus"
+label: 5
+display_name: "bus"
+}
+item {
+name: "truck"
+label: 6
+display_name: "truck"
+}
