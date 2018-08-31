@@ -1,0 +1,27 @@
+train_net: "/home/zhongchong/repos/caffe-ssd/models/resnet18/own/train.prototxt"
+test_net: "/home/zhongchong/repos/caffe-ssd/models/resnet18/own/test.prototxt"
+test_iter: 2500
+test_interval: 1000
+base_lr: 0.00999999977648
+display: 50
+max_iter: 160000
+lr_policy: "multistep"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 0.000500000023749
+snapshot: 40000
+snapshot_prefix: "/home/zhongchong/repos/caffe-ssd/models/resnet18/own/res18_coco_SSD_512x512"
+solver_mode: GPU
+device_id: 2
+debug_info: false
+snapshot_after_train: true
+test_initialization: false
+average_loss: 10
+stepvalue: 80000
+stepvalue: 120000
+stepvalue: 160000
+iter_size: 1
+type: "SGD"
+eval_type: "detection"
+ap_version: "11point"
+
